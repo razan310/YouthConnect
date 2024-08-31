@@ -1,0 +1,25 @@
+.ourProjects{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 4rem 6rem;
+    color: var(--text-color);
+    background-color:#f5e6cb;
+}
+.ourProjects h1{
+     width:fit-content;
+     margin: 5rem auto;
+     border-bottom: 2px solid #F23535; /* اللون والسمك والنمط يمكن تعديله */
+     padding-bottom: 10px;
+     font-size: 3rem;
+} 
+.ourProjects p{
+    margin-bottom: 2.5rem;
+}
+
+@media screen and (max-width:992px){
+    .ourProjects{
+        margin: 4rem 1rem;
+    }
+    
+   
+}

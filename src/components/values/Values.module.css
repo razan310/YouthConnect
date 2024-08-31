@@ -1,0 +1,36 @@
+.values{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 4rem 6rem;
+  color: var(--text-color);
+  
+
+}
+.Values h1{
+  width:fit-content;
+  margin: 5rem auto;
+  border-bottom: 2px solid #F23535; /* اللون والسمك والنمط يمكن تعديله */
+  padding-bottom: 10px;
+  font-size: 3rem;
+  color: var(--text-color);
+} 
+.valuecontainer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 10px ;
+   margin-bottom: 5rem;
+}
+
+
+
+@media screen and (max-width:992px){
+  .Values {
+      margin: 4rem 1rem;
+  }
+  .valuecontainer{
+    flex-wrap: wrap;
+
+  }
+ 
+}

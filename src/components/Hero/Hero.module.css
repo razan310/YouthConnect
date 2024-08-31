@@ -1,0 +1,24 @@
+.hero{
+    width:100%;
+    position: relative;
+    height: 100%;
+}
+.hero img{
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+}
+.items{
+    color: #fee5a2; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+@media screen and (max-width: 600px) {
+
+    .items{
+        display: none;
+    }
+}
